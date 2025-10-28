@@ -5,6 +5,9 @@ on:
     workflows: ["CI - Test and Code Coverage"]
     types:
       - completed
+    branches:
+      - main
+      - develop
 
 jobs:
   deploy-staging:
