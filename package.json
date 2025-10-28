@@ -1,0 +1,17 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "Node 20 app with CI/CD and Codecov",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
