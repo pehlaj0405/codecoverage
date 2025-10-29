@@ -75,7 +75,7 @@ jobs:
       - name: Deploy to Azure Web App - Staging
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'testwebapp26' # replace with your staging app name
+          app-name: 'test20' # replace with your staging app name
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_STAGING }}
           package: '.'
 
@@ -109,6 +109,6 @@ jobs:
       - name: Deploy to Azure Web App - Production
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'testwebapp26' # replace with your production app name
+          app-name: 'test20' # replace with your production app name
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_PRODUCTION }}
           package: '.'
